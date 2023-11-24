@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.converter {
+    background-color: wheat;
+    border-radius: 50px;
+    text-align: center;
+    width: 50%;
+}
+
+img {
+    padding: 50px;
+    border-radius: 25%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: plum;
+}
+
+#amount:hover {
+    background-color: powderblue;
+}
+
+#fromCurrency:hover {
+    background-color: powderblue;
+}
+
+#toCurrency:hover {
+    background-color: powderblue;
+}
